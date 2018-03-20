@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dpk.gas_detection.MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView2a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:paddingLeft="50dp"
+        android:visibility="gone"
+        app:srcCompat="@android:drawable/presence_busy" />
+    <ImageView
+        android:id="@+id/imageView2b"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:paddingLeft="250dp"
+        android:visibility="gone"
+        app:srcCompat="@android:drawable/presence_busy" />
+    <ImageView
+        android:id="@+id/imageView2c"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:paddingLeft="50dp"
+        android:visibility="gone"
+        app:srcCompat="@android:drawable/presence_busy" />
+    <ImageView
+        android:id="@+id/imageView2d"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:paddingLeft="250dp"
+        android:visibility="gone"
+        app:srcCompat="@android:drawable/presence_busy" />
+
+
+    <ImageView
+        android:id="@+id/imageView1a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:paddingLeft="50dp"
+        app:srcCompat="@android:drawable/presence_online" />
+
+
+    <ImageView
+        android:id="@+id/imageView1b"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:paddingLeft="250dp"
+        app:srcCompat="@android:drawable/presence_online" />
+
+
+    <ImageView
+        android:id="@+id/imageView1c"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="300dp"
+        android:paddingLeft="50dp"
+        android:layout_height="wrap_content"
+        app:srcCompat="@android:drawable/presence_online" />
+    <ImageView
+        android:id="@+id/imageView1d"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="300dp"
+        android:paddingLeft="250dp"
+        android:layout_height="wrap_content"
+        app:srcCompat="@android:drawable/presence_online" />
+
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="14dp"
+        android:layout_marginLeft="17dp"
+        android:layout_marginStart="17dp"
+        android:layout_toEndOf="@+id/imageView2a"
+        android:layout_toRightOf="@+id/imageView2a" />
+
+
+
+
+
+</RelativeLayout>
